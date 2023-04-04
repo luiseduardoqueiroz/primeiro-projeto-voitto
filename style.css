@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+ 
+
+header{
+    padding-left: 55px;
+    padding-top: 25px;
+    background-color: #E7E7E7;
+}
+
+#logo-voitto{
+    width: 88px;
+    height: 83px;
+    
+}
+
+.container-top{
+    background-color:#E7E7E7;
+    display: flex;
+    flex-direction: column;
+    
+   
+ 
+}
+
+.container-top h1{
+    width: 656px;
+    height: 78px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1A2E35;
+    margin-left: 55px;
+}
+
+.container-top p{
+    width: 653px;
+    height: 81px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: justify;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 55px;
+
+}
+
+.container-top h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    display: flex;
+    margin-left: 55px;
+    margin-top: 25px;
+
+}
+
+.space{
+    display: flex;
+    justify-content: space-evenly;   
+    align-items: center;
+ 
+
+}
+
+#name{
+    width: 351px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin:16px 0 16px 55px ;
+
+}
+
+#name::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    width: 117px;
+    height: 17px;
+    
+}
+
+#email{
+    width: 351px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin:16px 0 16px 55px ;
+
+}
+
+#email::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    width: 117px;
+    height: 17px;
+    
+}
+
+#button{
+    width: 351px;
+    height: 60px;
+    background: #FF4F5A;
+    border-radius: 10px;
+    width: 355px;
+    height: 29px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 55px;
+    cursor: pointer;
+    border: none;
+}
+
+#button:active{
+    opacity: 0.5;
+}
+
+.container-medium{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    padding-top: 20px;
+}
+
+.container-medium h2{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #1A2E35;
+    width: 738px;
+    height: 37px;
+
+}
+
+.container-medium p:nth-child(2){
+    width: 659px;
+    height: 158px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: justify;
+    color: #000000;
+    margin-bottom:24px ;
+    margin-top: 32px ;
+  
+}
+
+.container-medium p:nth-child(3){
+    width: 659px;
+    height: 118px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: justify;
+    color: #000000;
+
+}
+
+#button-2{
+    width: 351px;
+    height: 60px;
+    background: #FF4F5A;
+    border-radius: 10px;
+    width: 303px;
+    height: 40px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+#button-2:active{
+    opacity: 0.5;
+}
+
+.container-botton{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF4F5A;
+    gap: 33px;
+    padding-left:75px;
+    height: 60vh;
+    margin-top: 5px;
+    
+}
+
+.container-botton img{
+    width: 226px;
+    height:302px;
+    padding-top: 50px;
+}
+
+.container-botton h2{
+    width: 405px;
+    height: 62px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+
+
+.container-botton p{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: justify;
+    color: #FFFFFF;
+    width: 369px;
+    height: 244px;
+    margin-right: 10px;
+
+}
+
+.container-botton button{
+    width: 351px;
+    height: 60px;
+    background: #1E1E1E;
+    border-radius: 10px;
+    width: 300px;
+    height: 42px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.container-botton button:active{
+    opacity: 0.5;
+}
+
+
+
+
